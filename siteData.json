@@ -8,6 +8,7 @@
         "about-us": "About Us",
         "project-team": "Project team",
         "chua-wee-kiat-nicholas": "Chua Wee Kiat Nicholas",
+        "haixin": "Haixin",
         "nicholas-koh": "Nicholas Koh",
         "lim-yixiang": "Lim Yixiang",
         "jean-doe": "Jean Doe",
@@ -132,6 +133,14 @@
       "title": "",
       "headings": {
         "addressbook-level-3": "AddressBook Level-3"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/lihaixin000.md",
+      "title": "Haixin's Project Portfolio Page",
+      "headings": {
+        "project-clubconnect": "Project: ClubConnect"
       },
       "headingKeywords": {}
     },

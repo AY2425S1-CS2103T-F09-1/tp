@@ -9,7 +9,7 @@
         "project-team": "Project team",
         "nicholas-koh": "Nicholas Koh",
         "jane-doe": "Jane Doe",
-        "johnny-doe": "Johnny Doe",
+        "lim-yixiang": "Lim Yixiang",
         "jean-doe": "Jean Doe",
         "james-doe": "James Doe"
       },
@@ -132,6 +132,14 @@
       "title": "",
       "headings": {
         "addressbook-level-3": "AddressBook Level-3"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/limyixiang.md",
+      "title": "Lim Yixiang's Project Portfolio Page",
+      "headings": {
+        "project-clubconnect": "Project: ClubConnect"
       },
       "headingKeywords": {}
     },

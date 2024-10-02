@@ -7,6 +7,7 @@
       "headings": {
         "about-us": "About Us",
         "project-team": "Project team",
+        "chan-guan-yu": "Chan Guan Yu",
         "chua-wee-kiat-nicholas": "Chua Wee Kiat Nicholas",
         "haixin": "Haixin",
         "nicholas-koh": "Nicholas Koh",
@@ -133,6 +134,14 @@
       "title": "",
       "headings": {
         "addressbook-level-3": "AddressBook Level-3"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/G_Y_Chan.md",
+      "title": "Guan Yu's Project Portfolio Page",
+      "headings": {
+        "project-clubconnect": "Project: ClubConnect"
       },
       "headingKeywords": {}
     },

@@ -227,100 +227,100 @@ with(this){return _c('h3',{attrs:{"id":"use-cases"}},[_v("Use cases"),_c('a',{st
 with(this){return _c('p',[_v("(For all use cases below, the "),_c('strong',[_v("System")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ClubConnect")]),_v(" and the "),_c('strong',[_v("Actor")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("User")]),_v(", unless specified otherwise)")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: UC01 - Add contact")]),_c('br'),_v(" "),_c('strong',[_v("Actor:")]),_v(" User"),_c('br'),_v(" "),_c('strong',[_v("MSS:")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: UC01 - Add contact")]),_v(" "),_c('strong',[_v("Actor:")]),_v(" User\n"),_c('strong',[_v("MSS:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User requests to add a contact.")]),_v(" "),_c('li',[_v("App adds the contact."),_c('br'),_v("\nUse case ends.")])])}
-},function anonymous(
-) {
-with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
-},function anonymous(
-) {
-with(this){return _c('ul',[_c('li',[_v("1a. The given name is invalid (i.e., name is empty or does not start with an alphabet).\n"),_c('ul',[_c('li',[_v("1a1. App shows an error message to tell the user that the given name is invalid."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1b. The given phone number is invalid (i.e., phone number is not an 8-digit number and/or does not start with 6, 8, or 9).\n"),_c('ul',[_c('li',[_v("1b1. App shows an error message to tell the user that the given phone number is invalid."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1c. The given email is invalid (i.e., email does not follow normal email address format).\n"),_c('ul',[_c('li',[_v("1c1. App shows an error message to tell the user that the given email is invalid."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1d. The given contact is a duplicate of another contact in the list.\n"),_c('ul',[_c('li',[_v("1d1. App shows an error message to tell the user that the contact already exists in the list."),_c('br'),_v("\nUse case ends.")])])])])}
-},function anonymous(
-) {
-with(this){return _c('p',[_c('strong',[_v("Use case: UC02 - Edit contact")]),_c('br'),_v(" "),_c('strong',[_v("Actor:")]),_v(" User"),_c('br'),_v(" "),_c('strong',[_v("MSS:")])])}
-},function anonymous(
-) {
-with(this){return _c('ol',[_c('li',[_v("User requests to edit a contact by providing the index and the parameters to be changed.")]),_v(" "),_c('li',[_v("App changes the contact."),_c('br'),_v("\nUse case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User requests to add a contact.")]),_v(" "),_c('li',[_v("App adds the contact.\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("1a. User provides an invalid contact index (i.e., negative index or index exceeding size of list).\n"),_c('ul',[_c('li',[_v("1a1. App shows an error message to tell the user that the contact does not exist."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1b. User provides an invalid name (i.e., name does not start with an alphabet).\n"),_c('ul',[_c('li',[_v("1b1. App shows an error message to tell the user that the contact name is not valid."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1c. User provides an invalid phone number (i.e., phone number is not numerical).\n"),_c('ul',[_c('li',[_v("1c1. App shows an error message that the phone number is not valid."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1d. User provides an invalid email address (i.e., email address does not have a domain).\n"),_c('ul',[_c('li',[_v("1d1. App shows an error message that the email address is not valid."),_c('br'),_v("\nUse case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_v("1a. The given name is invalid (i.e., name is empty or does not start with an alphabet).\n"),_c('ul',[_c('li',[_v("1a1. App shows an error message to tell the user that the given name is invalid.\nUse case ends.")])])]),_v(" "),_c('li',[_v("1b. The given phone number is invalid (i.e., phone number is not an 8-digit number and/or does not start with 6, 8, or 9).\n"),_c('ul',[_c('li',[_v("1b1. App shows an error message to tell the user that the given phone number is invalid.\nUse case ends.")])])]),_v(" "),_c('li',[_v("1c. The given email is invalid (i.e., email does not follow normal email address format).\n"),_c('ul',[_c('li',[_v("1c1. App shows an error message to tell the user that the given email is invalid.\nUse case ends.")])])]),_v(" "),_c('li',[_v("1d. The given contact is a duplicate of another contact in the list.\n"),_c('ul',[_c('li',[_v("1d1. App shows an error message to tell the user that the contact already exists in the list.\nUse case ends.")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: UC03 - Delete contact by index")]),_c('br'),_v(" "),_c('strong',[_v("Actor:")]),_v(" User"),_c('br'),_v(" "),_c('strong',[_v("MSS:")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: UC02 - Edit contact")]),_v(" "),_c('strong',[_v("Actor:")]),_v(" User\n"),_c('strong',[_v("MSS:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User requests to list contacts.")]),_v(" "),_c('li',[_v("App shows a list of contacts.")]),_v(" "),_c('li',[_v("User requests to delete a specific contact by index in the list.")]),_v(" "),_c('li',[_v("App deletes the contact at the specified index."),_c('br'),_v("\nUse case ends.")])])}
-},function anonymous(
-) {
-with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
-},function anonymous(
-) {
-with(this){return _c('ul',[_c('li',[_v("2a. The list is empty.\n"),_c('ul',[_c('li',[_v("2a1. App shows an error message to tell the user the list is empty."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("3a. The given index is invalid (i.e., index does not exist or is not a positive integer).\n"),_c('ul',[_c('li',[_v("3a1. App shows an error message to tell the user that the given index is invalid."),_c('br'),_v("\nUse case ends.")])])])])}
-},function anonymous(
-) {
-with(this){return _c('p',[_c('strong',[_v("Use case: UC04 - Delete contact by name")]),_c('br'),_v(" "),_c('strong',[_v("Actor:")]),_v(" User"),_c('br'),_v(" "),_c('strong',[_v("MSS:")])])}
-},function anonymous(
-) {
-with(this){return _c('ol',[_c('li',[_v("User requests to delete a specific contact by name in the list.")]),_v(" "),_c('li',[_v("App deletes the contact with the specified name."),_c('br'),_v("\nUse case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User requests to edit a contact by providing the index and the parameters to be changed.")]),_v(" "),_c('li',[_v("App changes the contact.\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("1a. The given name does not exist.\n"),_c('ul',[_c('li',[_v("1a1. App shows an error message to tell the user that the given name does not exist."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1b. There are multiple contacts with the same name.\n"),_c('ul',[_c('li',[_v("1b1. App shows an error message to tell the user that there are multiple contacts with the same name and to delete by index instead."),_c('br'),_v("\nUse case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_v("1a. User provides an invalid contact index (i.e., negative index or index exceeding size of list).\n"),_c('ul',[_c('li',[_v("1a1. App shows an error message to tell the user that the contact does not exist.\nUse case ends.")])])]),_v(" "),_c('li',[_v("1b. User provides an invalid name (i.e., name does not start with an alphabet).\n"),_c('ul',[_c('li',[_v("1b1. App shows an error message to tell the user that the contact name is not valid.\nUse case ends.")])])]),_v(" "),_c('li',[_v("1c. User provides an invalid phone number (i.e., phone number is not numerical).\n"),_c('ul',[_c('li',[_v("1c1. App shows an error message that the phone number is not valid.\nUse case ends.")])])]),_v(" "),_c('li',[_v("1d. User provides an invalid email address (i.e., email address does not have a domain).\n"),_c('ul',[_c('li',[_v("1d1. App shows an error message that the email address is not valid.\nUse case ends.")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: UC05 - Search for contact by criteria")]),_c('br'),_v(" "),_c('strong',[_v("Actor:")]),_v(" User"),_c('br'),_v(" "),_c('strong',[_v("MSS:")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: UC03 - Delete contact by index")]),_v(" "),_c('strong',[_v("Actor:")]),_v(" User\n"),_c('strong',[_v("MSS:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User specifies criteria and keywords.")]),_v(" "),_c('li',[_v("App shows a list of contacts that match the provided criteria and keywords."),_c('br'),_v("\nUse case ends.")])])}
-},function anonymous(
-) {
-with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
-},function anonymous(
-) {
-with(this){return _c('ul',[_c('li',[_v("1a. No criteria is provided.\n"),_c('ul',[_c('li',[_v("1a1. App shows an error message to tell the user that no criteria has been provided."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1b. Criteria provided does not exist.\n"),_c('ul',[_c('li',[_v("1b1. App shows an error message to tell the user that the criteria does not exist."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1c. No keywords are provided.\n"),_c('ul',[_c('li',[_v("1c1. App shows an error message to tell the user that no keywords have been provided."),_c('br'),_v("\nUse case ends.")])])])])}
-},function anonymous(
-) {
-with(this){return _c('p',[_c('strong',[_v("Use case: UC06 - Label a contact")]),_c('br'),_v(" "),_c('strong',[_v("Actor:")]),_v(" User"),_c('br'),_v(" "),_c('strong',[_v("MSS:")])])}
-},function anonymous(
-) {
-with(this){return _c('ol',[_c('li',[_v("User requests to label a contact with a specified tag by name or ID in the list.")]),_v(" "),_c('li',[_v("App labels the specified contact with the specified tag."),_c('br'),_v("\nUse case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User requests to list contacts.")]),_v(" "),_c('li',[_v("App shows a list of contacts.")]),_v(" "),_c('li',[_v("User requests to delete a specific contact by index in the list.")]),_v(" "),_c('li',[_v("App deletes the contact at the specified index.\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("1a. The given name does not exist.\n"),_c('ul',[_c('li',[_v("1a1. App shows an error message to tell the user that the given name does not exist."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1b. The given ID does not exist.\n"),_c('ul',[_c('li',[_v("1b1. App shows an error message to tell the user that the given ID does not exist."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1c. The user inputs a negative integer as the ID.\n"),_c('ul',[_c('li',[_v("1c1. App shows an error message to tell the user to input a valid ID."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1d. The user inputs a tag that has already been added to the specified contact.\n"),_c('ul',[_c('li',[_v("1d1. App shows an error message to tell the user that the new tag is a duplicate and would not be added to the contact."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1e. There are multiple contacts with the same name.\n"),_c('ul',[_c('li',[_v("1e1. App shows an error message to tell the user that there are multiple contacts with the same name and to label by index instead."),_c('br'),_v("\nUse case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_v("2a. The list is empty.\n"),_c('ul',[_c('li',[_v("2a1. App shows an error message to tell the user the list is empty.\nUse case ends.")])])]),_v(" "),_c('li',[_v("3a. The given index is invalid (i.e., index does not exist or is not a positive integer).\n"),_c('ul',[_c('li',[_v("3a1. App shows an error message to tell the user that the given index is invalid.\nUse case ends.")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: UC07 - Mass Delete")]),_c('br'),_v(" "),_c('strong',[_v("Actor:")]),_v(" User"),_c('br'),_v(" "),_c('strong',[_v("MSS:")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: UC04 - Delete contact by name")]),_v(" "),_c('strong',[_v("Actor:")]),_v(" User\n"),_c('strong',[_v("MSS:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User requests to mass delete contacts by providing a list of contact IDs.")]),_v(" "),_c('li',[_v("App validates the provided contact IDs.")]),_v(" "),_c('li',[_v("App deletes the valid contacts.")]),_v(" "),_c('li',[_v("App logs the success message indicating the number of contacts deleted."),_c('br'),_v("\nUse case ends.")])])}
-},function anonymous(
-) {
-with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
-},function anonymous(
-) {
-with(this){return _c('ul',[_c('li',[_v("2a. No contact IDs provided.\n"),_c('ul',[_c('li',[_v("1a1. App shows an error message to tell the user that the given name does not exist."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("2b. Invalid contact ID(s) provided.\n"),_c('ul',[_c('li',[_v("2b1. App shows an error message to tell the user that the contact is invalid and ask the user to provide valid contact IDs"),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("2c. Duplicate contact IDs provided.\n"),_c('ul',[_c('li',[_v("2c1. App handles duplicates internally, ensuring each ID is processed once.")]),_v(" "),_c('li',[_v("2c2. Logs the message \"Successfully deleted [number] contacts.\""),_c('br'),_v("\nUse case resumes at step 2.")])])])])}
-},function anonymous(
-) {
-with(this){return _c('p',[_c('strong',[_v("Use case: UC08 - Filter content by type")]),_c('br'),_v(" "),_c('strong',[_v("Actor:")]),_v(" User"),_c('br'),_v(" "),_c('strong',[_v("MSS:")])])}
-},function anonymous(
-) {
-with(this){return _c('ol',[_c('li',[_v("User requests to filter contacts by specifying an event type.")]),_v(" "),_c('li',[_v("App validates the provided event type.")]),_v(" "),_c('li',[_v("App retrieves and returns the list of contacts associated with the specified event type.")]),_v(" "),_c('li',[_v("App logs the message indicating the number of contacts filtered."),_c('br'),_v("\nUse case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User requests to delete a specific contact by name in the list.")]),_v(" "),_c('li',[_v("App deletes the contact with the specified name.\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("2a. Invalid event type provided.\n"),_c('ul',[_c('li',[_v("2a1. App tells the user that the event is invalid and asks the user to provide a valid event type."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("2b. No contacts associated with the specified event type.\n"),_c('ul',[_c('li',[_v("2b1. App returns an empty list.")]),_v(" "),_c('li',[_v("2b2. Logs the message \"Filtered 0 contacts for event type: [eventType].\""),_c('br'),_v("\nUse case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_v("1a. The given name does not exist.\n"),_c('ul',[_c('li',[_v("1a1. App shows an error message to tell the user that the given name does not exist.\nUse case ends.")])])]),_v(" "),_c('li',[_v("1b. There are multiple contacts with the same name.\n"),_c('ul',[_c('li',[_v("1b1. App shows an error message to tell the user that there are multiple contacts with the same name and to delete by index instead.\nUse case ends.")])])])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Use case: UC05 - Search for contact by criteria")]),_v(" "),_c('strong',[_v("Actor:")]),_v(" User\n"),_c('strong',[_v("MSS:")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("User specifies criteria and keywords.")]),_v(" "),_c('li',[_v("App shows a list of contacts that match the provided criteria and keywords.\nUse case ends.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("1a. No criteria is provided.\n"),_c('ul',[_c('li',[_v("1a1. App shows an error message to tell the user that no criteria has been provided.\nUse case ends.")])])]),_v(" "),_c('li',[_v("1b. Criteria provided does not exist.\n"),_c('ul',[_c('li',[_v("1b1. App shows an error message to tell the user that the criteria does not exist.\nUse case ends.")])])]),_v(" "),_c('li',[_v("1c. No keywords are provided.\n"),_c('ul',[_c('li',[_v("1c1. App shows an error message to tell the user that no keywords have been provided.\nUse case ends.")])])])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Use case: UC06 - Label a contact")]),_v(" "),_c('strong',[_v("Actor:")]),_v(" User\n"),_c('strong',[_v("MSS:")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("User requests to label a contact with a specified tag by name or ID in the list.")]),_v(" "),_c('li',[_v("App labels the specified contact with the specified tag.\nUse case ends.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("1a. The given name does not exist.\n"),_c('ul',[_c('li',[_v("1a1. App shows an error message to tell the user that the given name does not exist.\nUse case ends.")])])]),_v(" "),_c('li',[_v("1b. The given ID does not exist.\n"),_c('ul',[_c('li',[_v("1b1. App shows an error message to tell the user that the given ID does not exist.\nUse case ends.")])])]),_v(" "),_c('li',[_v("1c. The user inputs a negative integer as the ID.\n"),_c('ul',[_c('li',[_v("1c1. App shows an error message to tell the user to input a valid ID.\nUse case ends.")])])]),_v(" "),_c('li',[_v("1d. The user inputs a tag that has already been added to the specified contact.\n"),_c('ul',[_c('li',[_v("1d1. App shows an error message to tell the user that the new tag is a duplicate and would not be added to the contact.\nUse case ends.")])])]),_v(" "),_c('li',[_v("1e. There are multiple contacts with the same name.\n"),_c('ul',[_c('li',[_v("1e1. App shows an error message to tell the user that there are multiple contacts with the same name and to label by index instead.\nUse case ends.")])])])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Use case: UC07 - Mass Delete")]),_c('br'),_v(" "),_c('strong',[_v("Actor:")]),_v(" User\n"),_c('strong',[_v("MSS:")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("User requests to mass delete contacts by providing a list of contact IDs.")]),_v(" "),_c('li',[_v("App validates the provided contact IDs.")]),_v(" "),_c('li',[_v("App deletes the valid contacts.")]),_v(" "),_c('li',[_v("App logs the success message indicating the number of contacts deleted.\nUse case ends.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("2a. No contact IDs provided.\n"),_c('ul',[_c('li',[_v("1a1. App shows an error message to tell the user that the given name does not exist.\nUse case ends.")])])]),_v(" "),_c('li',[_v("2b. Invalid contact ID(s) provided.\n"),_c('ul',[_c('li',[_v("2b1. App shows an error message to tell the user that the contact is invalid and ask the user to provide valid contact IDs\nUse case ends.")])])]),_v(" "),_c('li',[_v("2c. Duplicate contact IDs provided.\n"),_c('ul',[_c('li',[_v("2c1. App handles duplicates internally, ensuring each ID is processed once.")]),_v(" "),_c('li',[_v("2c2. Logs the message \"Successfully deleted [number] contacts.\"\nUse case resumes at step 2.")])])])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Use case: UC08 - Filter content by type")]),_v(" "),_c('strong',[_v("Actor:")]),_v(" User\n"),_c('strong',[_v("MSS:")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("User requests to filter contacts by specifying an event type.")]),_v(" "),_c('li',[_v("App validates the provided event type.")]),_v(" "),_c('li',[_v("App retrieves and returns the list of contacts associated with the specified event type.")]),_v(" "),_c('li',[_v("App logs the message indicating the number of contacts filtered.\nUse case ends.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("2a. Invalid event type provided.\n"),_c('ul',[_c('li',[_v("2a1. App tells the user that the event is invalid and asks the user to provide a valid event type.\nUse case ends.")])])]),_v(" "),_c('li',[_v("2b. No contacts associated with the specified event type.\n"),_c('ul',[_c('li',[_v("2b1. App returns an empty list.")]),_v(" "),_c('li',[_v("2b2. Logs the message \"Filtered 0 contacts for event type: [eventType].\"\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"non-functional-requirements"}},[_v("Non-Functional Requirements"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#non-functional-requirements","onclick":"event.stopPropagation()"}})])}
@@ -356,6 +356,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Tue, 15 Oct 2024, 20:33:46 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Tue, 15 Oct 2024, 23:50:24 GMT+8]")])])])}
 }];
   

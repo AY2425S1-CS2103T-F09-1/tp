@@ -272,7 +272,7 @@ _{Explain here how the data archiving feature will be implemented}_
 
 ### Product scope
 
-**Target user profile**:
+**Target user profile**: 
 
 Computing Club Committee members
 
@@ -319,173 +319,173 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 ---
 
-**Use case: UC01 - Add contact**
-**Actor:** User
+**Use case: UC01 - Add contact**  
+**Actor:** User  
 **MSS:**
 1. User requests to add a contact.
-2. App adds the contact.
+2. App adds the contact.  
    Use case ends.
 
 **Extensions:**
 * 1a. The given name is invalid (i.e., name is empty or does not start with an alphabet).
-    * 1a1. App shows an error message to tell the user that the given name is invalid.
+    * 1a1. App shows an error message to tell the user that the given name is invalid.  
       Use case ends.
 * 1b. The given phone number is invalid (i.e., phone number is not an 8-digit number and/or does not start with 6, 8, or 9).
-    * 1b1. App shows an error message to tell the user that the given phone number is invalid.
+    * 1b1. App shows an error message to tell the user that the given phone number is invalid.  
       Use case ends.
 * 1c. The given email is invalid (i.e., email does not follow normal email address format).
-    * 1c1. App shows an error message to tell the user that the given email is invalid.
+    * 1c1. App shows an error message to tell the user that the given email is invalid.  
       Use case ends.
 * 1d. The given contact is a duplicate of another contact in the list.
-    * 1d1. App shows an error message to tell the user that the contact already exists in the list.
+    * 1d1. App shows an error message to tell the user that the contact already exists in the list.  
       Use case ends.
 
 ---
 
-**Use case: UC02 - Edit contact**
-**Actor:** User
+**Use case: UC02 - Edit contact**  
+**Actor:** User  
 **MSS:**
 1. User requests to edit a contact by providing the index and the parameters to be changed.
-2. App changes the contact.
+2. App changes the contact.  
    Use case ends.
 
 **Extensions:**
 * 1a. User provides an invalid contact index (i.e., negative index or index exceeding size of list).
-    * 1a1. App shows an error message to tell the user that the contact does not exist.
+    * 1a1. App shows an error message to tell the user that the contact does not exist.  
       Use case ends.
 * 1b. User provides an invalid name (i.e., name does not start with an alphabet).
-    * 1b1. App shows an error message to tell the user that the contact name is not valid.
+    * 1b1. App shows an error message to tell the user that the contact name is not valid.  
       Use case ends.
 * 1c. User provides an invalid phone number (i.e., phone number is not numerical).
-    * 1c1. App shows an error message that the phone number is not valid.
+    * 1c1. App shows an error message that the phone number is not valid.  
       Use case ends.
 * 1d. User provides an invalid email address (i.e., email address does not have a domain).
-    * 1d1. App shows an error message that the email address is not valid.
+    * 1d1. App shows an error message that the email address is not valid.  
       Use case ends.
 
 ---
 
-**Use case: UC03 - Delete contact by index**
-**Actor:** User
+**Use case: UC03 - Delete contact by index**  
+**Actor:** User  
 **MSS:**
 1. User requests to list contacts.
 2. App shows a list of contacts.
 3. User requests to delete a specific contact by index in the list.
-4. App deletes the contact at the specified index.
+4. App deletes the contact at the specified index.  
    Use case ends.
 
 **Extensions:**
 * 2a. The list is empty.
-    * 2a1. App shows an error message to tell the user the list is empty.
+    * 2a1. App shows an error message to tell the user the list is empty.  
       Use case ends.
 * 3a. The given index is invalid (i.e., index does not exist or is not a positive integer).
-    * 3a1. App shows an error message to tell the user that the given index is invalid.
+    * 3a1. App shows an error message to tell the user that the given index is invalid.  
       Use case ends.
 
 ---
 
-**Use case: UC04 - Delete contact by name**
-**Actor:** User
+**Use case: UC04 - Delete contact by name**  
+**Actor:** User  
 **MSS:**
 1. User requests to delete a specific contact by name in the list.
-2. App deletes the contact with the specified name.
+2. App deletes the contact with the specified name.  
    Use case ends.
 
 **Extensions:**
 * 1a. The given name does not exist.
-    * 1a1. App shows an error message to tell the user that the given name does not exist.
+    * 1a1. App shows an error message to tell the user that the given name does not exist.  
       Use case ends.
 * 1b. There are multiple contacts with the same name.
-    * 1b1. App shows an error message to tell the user that there are multiple contacts with the same name and to delete by index instead.
+    * 1b1. App shows an error message to tell the user that there are multiple contacts with the same name and to delete by index instead.  
       Use case ends.
 
 ---
 
-**Use case: UC05 - Search for contact by criteria**
-**Actor:** User
+**Use case: UC05 - Search for contact by criteria**  
+**Actor:** User  
 **MSS:**
 1. User specifies criteria and keywords.
-2. App shows a list of contacts that match the provided criteria and keywords.
+2. App shows a list of contacts that match the provided criteria and keywords.  
    Use case ends.
 
 **Extensions:**
 * 1a. No criteria is provided.
-    * 1a1. App shows an error message to tell the user that no criteria has been provided.
+    * 1a1. App shows an error message to tell the user that no criteria has been provided.  
       Use case ends.
 * 1b. Criteria provided does not exist.
-    * 1b1. App shows an error message to tell the user that the criteria does not exist.
+    * 1b1. App shows an error message to tell the user that the criteria does not exist.  
       Use case ends.
 * 1c. No keywords are provided.
-    * 1c1. App shows an error message to tell the user that no keywords have been provided.
+    * 1c1. App shows an error message to tell the user that no keywords have been provided.  
       Use case ends.
-
+  
 ---
 
-**Use case: UC06 - Label a contact**
-**Actor:** User
+**Use case: UC06 - Label a contact**  
+**Actor:** User  
 **MSS:**
 1. User requests to label a contact with a specified tag by name or ID in the list.
-2. App labels the specified contact with the specified tag.
+2. App labels the specified contact with the specified tag.  
    Use case ends.
 
 **Extensions:**
 * 1a. The given name does not exist.
-    * 1a1. App shows an error message to tell the user that the given name does not exist.
+    * 1a1. App shows an error message to tell the user that the given name does not exist.  
       Use case ends.
 * 1b. The given ID does not exist.
-    * 1b1. App shows an error message to tell the user that the given ID does not exist.
+    * 1b1. App shows an error message to tell the user that the given ID does not exist.  
       Use case ends.
 * 1c. The user inputs a negative integer as the ID.
-    * 1c1. App shows an error message to tell the user to input a valid ID.
+    * 1c1. App shows an error message to tell the user to input a valid ID.  
       Use case ends.
 * 1d. The user inputs a tag that has already been added to the specified contact.
-    * 1d1. App shows an error message to tell the user that the new tag is a duplicate and would not be added to the contact.
+    * 1d1. App shows an error message to tell the user that the new tag is a duplicate and would not be added to the contact.  
       Use case ends.
 * 1e. There are multiple contacts with the same name.
-    * 1e1. App shows an error message to tell the user that there are multiple contacts with the same name and to label by index instead.
+    * 1e1. App shows an error message to tell the user that there are multiple contacts with the same name and to label by index instead.  
       Use case ends.
 
 ---
 
 **Use case: UC07 - Mass Delete**  
-**Actor:** User
+**Actor:** User  
 **MSS:**
 1. User requests to mass delete contacts by providing a list of contact IDs.
 2. App validates the provided contact IDs.
 3. App deletes the valid contacts.
-4. App logs the success message indicating the number of contacts deleted.
+4. App logs the success message indicating the number of contacts deleted.  
    Use case ends.
 
 **Extensions:**
-* 2a. No contact IDs provided.
-    * 1a1. App shows an error message to tell the user that the given name does not exist.
+* 2a. No contact IDs provided.  
+    * 1a1. App shows an error message to tell the user that the given name does not exist.  
       Use case ends.
 * 2b. Invalid contact ID(s) provided.
-    * 2b1. App shows an error message to tell the user that the contact is invalid and ask the user to provide valid contact IDs
+    * 2b1. App shows an error message to tell the user that the contact is invalid and ask the user to provide valid contact IDs  
       Use case ends.
 * 2c. Duplicate contact IDs provided.
     * 2c1. App handles duplicates internally, ensuring each ID is processed once.
-    * 2c2. Logs the message "Successfully deleted [number] contacts."
+    * 2c2. Logs the message "Successfully deleted [number] contacts."  
       Use case resumes at step 2.
 
 ---
 
-**Use case: UC08 - Filter content by type**
-**Actor:** User
+**Use case: UC08 - Filter content by type**  
+**Actor:** User  
 **MSS:**
 1. User requests to filter contacts by specifying an event type.
 2. App validates the provided event type.
 3. App retrieves and returns the list of contacts associated with the specified event type.
-4. App logs the message indicating the number of contacts filtered.
+4. App logs the message indicating the number of contacts filtered.  
    Use case ends.
 
 **Extensions:**
 * 2a. Invalid event type provided.
-    * 2a1. App tells the user that the event is invalid and asks the user to provide a valid event type.
+    * 2a1. App tells the user that the event is invalid and asks the user to provide a valid event type.  
       Use case ends.
 * 2b. No contacts associated with the specified event type.
     * 2b1. App returns an empty list.
-    * 2b2. Logs the message "Filtered 0 contacts for event type: [eventType]."
+    * 2b2. Logs the message "Filtered 0 contacts for event type: [eventType]."  
       Use case ends.
 
 ---

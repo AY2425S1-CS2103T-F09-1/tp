@@ -123,17 +123,6 @@ public class ModelManager implements Model {
     }
 
     @Override
-    public List<Person> getPersonList() {
-        return addressBook.getPersonList();
-    }
-
-    /**
-     * Checks if the specified event exists in the address book.
-     *
-     * @param event The event to be checked. Must not be null.
-     * @return {@code true} if the event exists in the address book, {@code false} otherwise.
-     * @throws NullPointerException if the provided event is null.
-     */
     public boolean hasEvent(Event event) {
         requireNonNull(event);
         return addressBook.hasEvent(event);

@@ -114,18 +114,4 @@ public class Person {
                 .toString();
     }
 
-    /**
-     * Converts the object's fields into a CSV (Comma-Separated Values) format.
-     * Each field is enclosed in double quotes and separated by commas.
-     *
-     * @return A string representing the object in CSV format, where fields include:
-     *         name, phone, email, address, and tags.
-     */
-    public String toCsvFormat() {
-        return "\"" + name + "\","
-                + "\"" + phone + "\","
-                + "\"" + email + "\","
-                + "\"" + address + "\","
-                + "\"" + tags + "\"";
-    }
 }

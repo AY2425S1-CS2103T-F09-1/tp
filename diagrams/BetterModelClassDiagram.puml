@@ -6,11 +6,15 @@ skinparam classBackgroundColor MODEL_COLOR
 
 AddressBook *-right-> "1" UniquePersonList
 AddressBook *-right-> "1" UniqueTagList
+AddressBook *-right-> "1" UniqueEventList
 UniqueTagList -[hidden]down- UniquePersonList
 UniqueTagList -[hidden]down- UniquePersonList
+UniquePersonList -[hidden]down- UniqueEventList
+UniquePersonList -[hidden]down- UniqueEventList
 
 UniqueTagList -right-> "*" Tag
 UniquePersonList -right-> Person
+UniqueEventList -down-> Event
 
 Person -up-> "*" Tag
 
@@ -18,4 +22,8 @@ Person *--> Name
 Person *--> Phone
 Person *--> Email
 Person *--> Address
+
+Event *--> EventName
+Event *--> EventDuration
+Event *--> EventDescription
 @enduml

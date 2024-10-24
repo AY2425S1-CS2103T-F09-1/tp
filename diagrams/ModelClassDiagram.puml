@@ -20,6 +20,12 @@ Class Name
 Class Phone
 Class Tag
 
+Class UniqueEventList
+Class Event
+Class EventName
+Class EventDescription
+Class EventDuration
+
 Class I #FFFFFF
 }
 
@@ -43,12 +49,22 @@ Person *--> Email
 Person *--> Address
 Person *--> "*" Tag
 
+AddressBook *--> "1" UniqueEventList
+UniqueEventList --> "~* all" Event
+Event *--> EventName
+Event *--> EventDescription
+Event *--> EventDuration
+
 Person -[hidden]up--> I
 UniquePersonList -[hidden]right-> I
+
+Event -[hidden]up--> I
+UniqueEventList -[hidden]right-> I
 
 Name -[hidden]right-> Phone
 Phone -[hidden]right-> Address
 Address -[hidden]right-> Email
 
 ModelManager --> "~* filtered" Person
+ModelManager --> "~* filtered" Event
 @enduml

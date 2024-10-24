@@ -116,6 +116,8 @@
         "editing-a-person-edit": "Editing a person : edit",
         "locating-persons-by-name-find": "Locating persons by name: find",
         "deleting-a-person-delete": "Deleting a person : delete",
+        "exporting-all-contacts-export": "Exporting all contacts: export",
+        "importing-persons-import": "Importing persons: import",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "exiting-the-program-exit": "Exiting the program : exit",
         "saving-the-data": "Saving the data",

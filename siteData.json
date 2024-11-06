@@ -123,6 +123,8 @@
         "adding-an-event-add-event": "Adding an event: add_event",
         "listing-all-events-list-events": "Listing all events : list_events",
         "deleting-an-event-del-event": "Deleting an event: del_event",
+        "assigning-an-event-assign-event": "Assigning an event: assign_event",
+        "unassigning-an-event-unassign-event": "Unassigning an event: unassign_event",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "exiting-the-program-exit": "Exiting the program : exit",
         "saving-the-data": "Saving the data",

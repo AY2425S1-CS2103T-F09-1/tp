@@ -121,6 +121,7 @@
         "exporting-all-contacts-export": "Exporting all contacts: export",
         "importing-persons-import": "Importing persons: import",
         "adding-an-event-add-event": "Adding an event: add_event",
+        "editing-an-event-edit-event": "Editing an event: edit_event",
         "listing-all-events-list-events": "Listing all events : list_events",
         "deleting-an-event-delete-event": "Deleting an event: delete_event",
         "assigning-an-event-assign-event": "Assigning an event: assign_event",

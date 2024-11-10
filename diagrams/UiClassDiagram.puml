@@ -53,7 +53,8 @@ EventCard --|> UiPart
 StatusBarFooter --|> UiPart
 HelpWindow --|> UiPart
 
-PersonCard ..> Model
+PersonCard .right.> Model
+EventCard .left.> Model
 UiManager -right-> Logic
 MainWindow -left-> Logic
 

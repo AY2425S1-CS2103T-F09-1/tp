@@ -64,6 +64,8 @@
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
         "deleting-a-person": "Deleting a person",
+        "adding-an-event": "Adding an event",
+        "unassigning-an-event-from-a-person": "Unassigning an event from a person",
         "saving-data": "Saving data"
       },
       "headingKeywords": {}

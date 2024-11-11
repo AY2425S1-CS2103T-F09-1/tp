@@ -120,7 +120,7 @@
         "deleting-a-person-delete": "Deleting a person : delete",
         "deleting-multiple-people-mass-delete": "Deleting multiple people : mass_delete",
         "locating-persons-by-name-find": "Locating persons by name: find",
-        "searching-persons-by-a-specified-field-search": "Searching persons by a specified field : search",
+        "searching-by-a-specified-field-search": "Searching by a specified field : search",
         "exporting-persons-export": "Exporting persons: export",
         "importing-persons-import": "Importing persons: import",
         "event-commands": "Event Commands",

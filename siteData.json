@@ -64,6 +64,7 @@
         "launch-and-shutdown": "Launch and shutdown",
         "deleting-a-person": "Deleting a person",
         "adding-an-event": "Adding an event",
+        "deleting-an-event": "Deleting an event",
         "unassigning-an-event-from-a-person": "Unassigning an event from a person",
         "saving-data": "Saving data"
       },

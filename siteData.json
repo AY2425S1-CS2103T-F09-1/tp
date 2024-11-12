@@ -67,6 +67,9 @@
         "adding-an-event": "Adding an event",
         "editing-an-event": "Editing an event",
         "unassigning-an-event-from-a-person": "Unassigning an event from a person",
+        "assigning-an-event-to-a-person": "Assigning an Event to a Person",
+        "exporting-contacts-to-csv": "Exporting Contacts to CSV",
+        "importing-contacts-from-csv": "Importing Contacts from CSV",
         "saving-data": "Saving data"
       },
       "headingKeywords": {}
